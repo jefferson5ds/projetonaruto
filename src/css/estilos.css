@@ -1,0 +1,68 @@
+body{
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.cabecalho{
+ 
+text-align: center;
+    
+}
+.logonaruto{
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+.personagens{
+   width: 100%;
+   height: 150%;
+  padding: px;
+
+}
+
+.texto{
+    height: ;
+    width: ;  
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px;
+ 
+    
+}
+
+
+.lista{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+
+       
+
+}
+
+.personagemgrande{
+   
+  
+     
+}
+.narutogrande{
+    width: 430px;
+    height: 430px;
+}
