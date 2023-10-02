@@ -1,0 +1,9 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.logonaruto{
+    width: 300px;
+}
+
