@@ -13,43 +13,51 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img class="logonaruto" src="./src/imagens/narutologo.png" alt="">
+        <img class="logo"    src="src/imagens/narutologo.png" alt="logo naruto">
     </header>
-    <main class="container">
-        
-       <section class="personagens" >  
-        <h1 class="texto">personagens</h1>
-        <ul class="lista">
-            <li>
-            <img src="./src/imagens/gaara.webp" alt="gaara">
-            </li>
-            <li>
-                <img src="./src/imagens/hinata.webp" alt="personagens hinata">
-            </li>
-            <li>
-                <img src="./src/imagens/kakashi.webp" alt="kakashi">
-            </li>
-            <li><img src="./src/imagens/minato.webp" alt="minato"></li>
-            <li>
-                <img src="./src/imagens/Naruto.webp" alt="naruto">
-            </li>
-            <li><img src="./src/imagens/Sakura.webp" alt="sakura"></li>
-        </ul>
+    <main class="selecao-de-personagem">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="naruto" id="naruto">
+                    <img src="src/imagens/gaara.webp" alt="personagem gaara">
+                </li>
+                <li class="personagem" id="jean-gray" data-name="jean-gray">
+                    <img src="src/imagens/hinata.webp" alt="hinata">
+                </li>
+                <li class="personagem" id="lince-negra">
+                    <img src="src/imagens/kakashi.webp" alt="personagem kakashi">
+                </li>
+                <li class="personagem" id="magneto">
+                    <img src="src/imagens/minato.webp" alt="minato">
+                </li>
+                <li class="personagem" id="noturno">
+                    <img src="src/imagens/naruto.webp" alt="naruto">
+                </li>
+                <li class="personagem" id="tempestade">
+                    <img src="src/imagens/sakura.webp" alt="sakura" class="sakura">
+                </li>
+                <li class="personagem" id="vampira">
+                    <img src="src/imagens/sasuke.webp" alt="sasuke">
+                </li>
+                
+            </ul>
+        </section>
 
-       </section>
+        <section class="personagens-selecionado">
+            <img class="personagem-grande" src="src/imagens/narutogrande.jpg">
 
-       <section class="personagemgrande">
-              <img class="narutogrande"  src="./src/imagens/narutogrande.jpg" alt="personagens grande">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem " id="nome-personagem">Naruto</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ele tem poder de disparar rajadas ópticas por um acidente que acontedceu com ele quando criança, mas
+                    não consegue controlá-los
+                </p>
+            </div>
+        </section>
 
+    </main>
 
-       </section>
-
-
-    </main>   
-
-    <footer class="rodape"><h2>
-        site criado por jefferson 
-    </h2></footer>
     
     <script>
 
