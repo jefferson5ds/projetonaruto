@@ -84,9 +84,7 @@ body::before{
     height: 300px; 
     background-color: aqua;
     display: flex;
-    justify-content: end;
-    flex-direction: column;
-    column-gap: 30px;
+   align-self: flex-start;
     
 }
  
